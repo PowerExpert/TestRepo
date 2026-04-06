@@ -18,7 +18,7 @@
       50% { box-shadow: 0 0 40px 8px #6100cf; }
     }
     #chat-window {
-      position: fixed; bottom: 100px; right: 28px; width: 420px; max-height: 600px;
+      position: fixed; bottom: 100px; right: 28px; width: 620px; max-height: 600px;
       background: rgba(10,12,22,0.97); border: 1px solid #6100cf;
       border-radius: 16px; display: none; flex-direction: column; z-index: 9998;
       backdrop-filter: blur(16px); overflow: hidden;
