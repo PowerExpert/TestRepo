@@ -132,7 +132,7 @@
     input.value = '';
     sendBtn.disabled = true;
     addMsg(text, 'user');
-    history.push({ role: 'user', content: text });
+    history.push({ role: 'user', content: text }); m 
     const typing = addMsg('...', 'bot');
 
     try {
