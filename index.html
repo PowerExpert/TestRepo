@@ -1,9 +1,150 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="site/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediAssist — AI Medical Information</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Ambient blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">⚕</div>
+        MediAssist
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#" class="nav-cta">Ask AI →</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrapper">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        AI-Powered Medical Assistant
+      </div>
+
+      <h1>Your health,<br><em>understood.</em></h1>
+
+      <p class="hero-sub">
+        Ask questions about symptoms, medications, treatments, and wellness —
+        in any language. Instant, clear, reliable information.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#" class="btn-primary">
+          💬 &nbsp;Ask a Question
+        </a>
+        <a href="#features" class="btn-ghost">
+          Learn more →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="wrapper">
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">50<span>+</span></div>
+        <div class="stat-label">Languages</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">24<span>/7</span></div>
+        <div class="stat-label">Available</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">1M<span>+</span></div>
+        <div class="stat-label">Topics covered</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">0<span>s</span></div>
+        <div class="stat-label">Wait time</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <section class="section" id="features">
+    <div class="wrapper">
+      <div class="section-tag">What we offer</div>
+      <h2 class="section-title">Medical knowledge,<br>at your fingertips.</h2>
+      <p class="section-sub">From basic questions to complex conditions — MediAssist covers it all clearly and honestly.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🩺</div>
+          <div class="feature-title">Symptom Guidance</div>
+          <div class="feature-desc">Describe what you're feeling and get clear, structured information about possible causes and next steps.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💊</div>
+          <div class="feature-title">Medication Info</div>
+          <div class="feature-desc">Understand dosages, interactions, side effects, and alternatives for thousands of medications.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <div class="feature-title">Mental Health</div>
+          <div class="feature-desc">Resources and information on anxiety, depression, stress, sleep, and emotional wellbeing.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <div class="feature-title">Any Language</div>
+          <div class="feature-desc">Ask in Russian, Kazakh, Spanish, Arabic — MediAssist detects your language and responds in kind.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔬</div>
+          <div class="feature-title">Lab Results</div>
+          <div class="feature-desc">Confused by your blood work? Get plain-language explanations of common lab values and what they mean.</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🥗</div>
+          <div class="feature-title">Nutrition & Wellness</div>
+          <div class="feature-desc">Evidence-based guidance on diet, exercise, hydration, and preventive health habits.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <div class="wrapper" id="about">
+    <div class="disclaimer">
+      <div class="disclaimer-icon">⚠️</div>
+      <p>
+        <strong>Medical Disclaimer:</strong> MediAssist provides general health information for educational purposes only.
+        It is not a substitute for professional medical advice, diagnosis, or treatment.
+        Always consult a qualified healthcare provider for personal medical decisions.
+        In case of emergency, call your local emergency services immediately.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 MediAssist. For informational purposes only.</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
   <script src="chatbot.js" defer></script>
+
 </body>
 </html>
